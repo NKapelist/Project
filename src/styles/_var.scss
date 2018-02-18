@@ -9,6 +9,12 @@ $second_red: #EF5350;
 $first_green: #1B5E20;
 $second_green: #66BB6A;
 
+$main_dark_lilac: #221d33;
+$main_light_lilac: #703e4b;
+$purple: #61303c;
+$light_purple: #bf929d;
+$light_pink: #FCE4EC;
+
 @mixin margin($horizontal, $vertical) {
 	margin: $horizontal $vertical;
 }

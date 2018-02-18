@@ -1,7 +1,7 @@
 export default {
 	render: function(data){
 		// var body = document.body;
-		var body = document.getElementsByClassName("main_content_container")[0];
+		var body = document.getElementsByClassName("right_content")[0];
 		// data.forEach (function (el){
 		// 	body.appendChild(el);
 		// });
@@ -13,7 +13,7 @@ export default {
         	p.innerHTML = el.body;
         	div.appendChild(h3);
 			div.appendChild(p);
-			div.classList.add('posts_container');
+			div.classList.add('right_content_posts');
         	return div;
         }).forEach(el => {
         	body.appendChild(el);

@@ -3,32 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <title>Dashboard</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
 </head>
 <body>
-    <div id="left" class="container">
-        <div class="left_header">
-            <p>Title</p>
+    <div id="container" class="left_container">
+        <div id="header" class="left_header">
+            <ul id="left_header_buttons">
+                <li><a class="material-icons" href="#">reply</a></li>
+                <li><a class="material-icons" href="#">email</a></li>
+                <li><a class="material-icons" href="#">settings</a></li>
+                <li><a class="material-icons" href="#">person</a></li>
+            </ul>
         </div>
-        <div class="sidebar">
-            <button>Dashboard</button>
-            <button>UI elements</button>
-            <button>Sample pages</button>
-            <button>Messages</button>
-            <button>Forms</button>
-            <button>Grid Layout</button>
-            <button>Tables</button>
-            <button>Statistics</button>
-            <button>Support</button>
-        </div>
-    </div>
-    <div id="right" class="container">
-        <div class="right_header">
-            <p>Search</p>
-        </div>
-        <div class="main_content_container"></div>
-    </div>
+        <div id="header_info" class="left_profile">
+            <img src="assets/img/IMG_052211.jpg" alt="profile_photo">
+            <h1>Natalia Kapelist</h1>
+            <h3>Admin Manager</h3>
+            <ul class="left_profile_buttons">
+                <li><a class="material-icons" href="#">account_circle</a></li>
+                <li><a class="material-icons" href="#">near_me</a></li>
+                <li><a class="material-icons" href="#">remove_red_eye</a></li>
+            </ul>
 
+        </div>
+        <div id="main_content_container" class="left_sidebar">
+            <button><i class="material-icons">home</i>Dashboard</button>
+            <button><i class="material-icons">graphic_eq</i>UI elements</button>
+            <button><i class="material-icons">desktop_mac</i>Sample pages</button>
+            <button><i class="material-icons">message</i>Messages</button>
+            <button><i class="material-icons">launch</i>Forms</button>
+            <button><i class="material-icons">tab</i>Grid Layout</button>
+            <button><i class="material-icons">view_quilt</i>Tables</button>
+            <button><i class="material-icons">equalizer</i>Statistics</button>
+            <button><i class="material-icons">data_usage</i>Support</button>
+        </div>
+    </div>
+    <div id="container" class="right_container">
+        <div id="header" class="right_header">
+            <form action="">
+                <div class="search_icon">
+                    <span><i class="material-icons">search</i></span>
+                </div>
+                <input type="search" name="searsh" placeholder="Search...">
+                <button type="submit" name="submit"><i class="material-icons">trending_flat</i></button>
+            </form>
+            <div class="clicker">
+                <input id="clickerInput" type="text" placeholder="Clicker Game">
+                <button id="clickerButton">Start</button>
+            </div>
+        </div>
+        <div id="header_info" class="right_statistics">
+            <div class="info">
+                <div class="home_info">
+                    <div class="home_icon">
+                        <span><i class="material-icons">home</i></span>
+                    </div>
+                    <div class="home_text">
+                        <h2>Dashboard</h2>
+                        <p>Home. Dashboard</p>
+                    </div>
+                    
+                </div>
+                <div class="date_info"></div>
+            </div>
+            <div class="statistic_info">
+
+            </div>
+        </div>
+        <div id="main_content_container" class="right_content">
+        </div>
+    </div>
+   
 
     <script type="text/javascript" src="build/main.js"></script>
+    <script type="text/javascript" src="src/controllers/clickerCtrl.js"></script>
 </body>
 </html>

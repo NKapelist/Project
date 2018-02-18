@@ -1,0 +1,93 @@
+// #header {
+//     display: flex;
+//     width: 100%;
+//     height: 60px; 
+// }
+
+.right_header {
+    background: linear-gradient(to top left, $main_dark_lilac, $main_light_lilac);
+    flex-flow: row nowrap;
+    
+    form {
+        display: flex;
+        flex-flow: row nowrap;
+        width: 30%;
+        border-right: 1px solid $light_purple;
+        border-left: 1px solid $light_purple;
+        min-height: 20px;
+        
+        .search_icon {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 25%;
+                height: 100%;
+                .material-icons {
+                    border: none;
+                    font-size: 25px;
+                }
+        }
+        input[type="search"] {
+            border: none;
+            outline: none;
+            -webkit-appearance: none;
+            width: 50%;
+            vertical-align: middle;
+            height: 100%;
+            background-color: inherit;
+            color: $light_pink;
+        }
+        button[type="submit"] {
+            width: 25%;
+            height: 100%;
+            background: inherit;
+            border: none;
+            -webkit-appearance: none;
+        }
+    }
+
+    .clicker {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        height: 100%;
+
+        input[type="text"] {
+            border: none;
+            outline: none;
+            -webkit-appearance: none;
+            width: 60%;
+            height: 40px;
+            vertical-align: middle;
+            background-color: $light_pink;
+            color: $light_pink;
+            border: 1px solid $light_purple;
+            border-radius: 10px;
+            color: $main_dark_lilac;
+            margin-right: 3px;
+            padding-left: 10px;
+        }
+        button {
+            width: 50px;
+            height: 45px;
+            background: inherit;
+            border: 1px solid $light_purple;
+            border-radius: 10px;
+            -webkit-appearance: none;
+            font-size: 15px;
+            color: $light_pink;
+        }
+    }
+}
+
+.right_header form input[type="search"]:hover{
+    opacity: 0.5;
+}
+.right_header form button[type="submit"]:hover{
+    opacity: 0.5;
+}
+.right_header .clicker button:hover{
+    opacity: 0.5;
+}
