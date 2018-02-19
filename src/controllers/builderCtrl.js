@@ -5,10 +5,11 @@ let controller = {
 	model,
 	view,
 	work: function(){
-		let result = [];
+		let result = [],
 		data = this.model.data;
+
 		result = data.map(function (el) {
-			let html = document.createElement(el,tag);
+			let html = document.createElement(el.tag);
 			if (el.body && el.tag != "img") {
 				html.innerHTML = el.body;
 			}

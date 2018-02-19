@@ -17,7 +17,7 @@
             </ul>
         </div>
         <div id="header_info" class="left_profile">
-            <img src="assets/img/IMG_052211.jpg" alt="profile_photo">
+            <img src="../assets/img/IMG_052211.jpg" alt="profile_photo">
             <h1>Natalia Kapelist</h1>
             <h3>Admin Manager</h3>
             <ul class="left_profile_buttons">
@@ -68,6 +68,15 @@
                 <div class="date_info"></div>
             </div>
             <div class="statistic_info">
+                <div id="app">
+                    <p>{{ message }}</p>
+                    <input type="text" v-model="message">
+                    
+                </div>
+                <div id="app2">
+                    <p>{{ score }}</p>
+                    <button v-on:click="click">Click</button>
+                </div>
 
             </div>
         </div>
@@ -76,7 +85,7 @@
     </div>
    
 
-    <script type="text/javascript" src="build/main.js"></script>
-    <script type="text/javascript" src="src/controllers/clickerCtrl.js"></script>
+    <!-- <script type="text/javascript" src="main.js"></script> -->
+
 </body>
 </html>
