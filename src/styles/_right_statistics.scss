@@ -41,6 +41,9 @@
                     }
             }
             .date_info{
+                display: flex;
+                width: 70%;
+                height: 100%;
 
             }
     }
@@ -49,5 +52,95 @@
         width: 100%;
         flex-flow: row nowrap;
         height: 70%;
+        background-color: inherit;
+
+        .vue_apps {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            width: 30%;
+            height: 100%;
+
+            #app{
+                width: 80%;
+                height: 50%;
+            }
+
+            #app2{
+                width: 80%;
+                height: 50%;
+            }
+        }
+
+        .toDoList{
+            width: 70%;
+            height: 100%;
+
+            .panel, li {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                list-style-type: none;
+                padding: 3px;
+                margin:5px;
+                margin-left: 40px;
+                width: 80%;
+
+                    .text-input {
+                        width: 80%;
+                        border: 1px solid $light_purple;
+                        padding-left: 10px;
+                        height: 20px;
+                        color: $main_dark_lilac;
+                    }
+
+                    button {
+                        background-color: inherit;
+                        color: white;
+                        border: 1px solid $light_purple;
+                        outline: 0;
+                        width: 80px;
+                        height: 25px;
+                        cursor: pointer;
+                        font-size: 15px;
+                    }
+            }
+            .list li {
+                background: linear-gradient(to top left, $main_light_lilac, #f55f4c);
+
+                    button {
+                        background-color: transparent;
+                        border: 1px solid $main_light_lilac;
+                        color: #ddd;
+                        visibility: hidden;
+                        font-size: 15px;
+                        font-weight: bold;
+                    }
+                    label {
+                        padding-right: 10px;
+                        display: inline-block;
+                        width: 80%;
+                        font-size: 15px;
+                        line-height: 20px;
+                        color: #fcfcfc;
+                        z-index: 2;
+                        overflow: hidden;
+                    }
+            }
+            
+            .list li:hover > button {
+                visibility: visible;
+            }
+   
+            .list li.done label {
+                color: #d9d9d9;
+                text-decoration: line-through;
+            }
+
+            .panel button:hover{
+                opacity: 0.5;
+            }
+        }
     }
 }

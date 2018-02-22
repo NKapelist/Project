@@ -3,13 +3,14 @@ import ctrl from "./controllers/builderCtrl.js";
 import "./controllers/clickerCtrl.js";
 import "./posts.js";
 import Vue from "vue/dist/vue.min.js";
+import "./toDoList.js";
 
 // ctrl.render();
 
 new Vue({
 	el: "#app",
 	data: {
-		message: "hello world"
+		message: "Hello world"
 	}
 })
 
@@ -24,3 +25,4 @@ var app2 = new Vue({
     }
   }
 })
+
