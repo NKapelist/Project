@@ -102,3 +102,30 @@ button:active, button:focus {
 button::-moz-focus-inner {
     border: 0;
 }
+
+.r_links {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    justify-content: center;
+
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $light_pink;
+        // font-weight: bold;
+        @include padding(5px,5px);
+        @include margin(20px,5px);
+        text-decoration: none;
+        width: 100px;
+        height: 30px;
+        text-align: center;
+        border-radius: 20px;
+        border: 1px solid $light_purple;
+    } 
+}
+
+.r_links a:hover {
+    opacity: 0.5;
+}

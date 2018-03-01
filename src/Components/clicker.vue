@@ -35,8 +35,8 @@
         display: flex;
         flex-flow: row nowrap;
         justify-content: center;
-        align-items: center;
-        width: 30%;
+        // align-items: center;
+        width: 100%;
         height: 100%;
         padding-top: 20px;
         margin-left: 20px;

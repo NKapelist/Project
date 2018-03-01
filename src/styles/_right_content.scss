@@ -5,8 +5,8 @@
 
 .right_content {
     flex-flow: row wrap;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: center;
+    // align-items: center;
     @include padding (20px,0px);
     background: linear-gradient(to top left, $main_dark_lilac, $main_light_lilac);
 

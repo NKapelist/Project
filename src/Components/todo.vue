@@ -109,7 +109,7 @@
 <style lang="scss">
 	
 	.toDoList{
-            width: 70%;
+            width: 100%;
             height: 100%;
 
             .panel, li {
@@ -119,8 +119,8 @@
                 list-style-type: none;
                 padding: 3px;
                 margin:5px;
-                margin-left: 40px;
-                width: 80%;
+                // margin-left: 40px;
+                width: 100%;
 
                     .text-input {
                         width: 80%;

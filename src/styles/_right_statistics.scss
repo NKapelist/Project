@@ -47,31 +47,31 @@
 
             }
     }
-    .statistic_info {
-        display: flex;
-        width: 100%;
-        flex-flow: row nowrap;
-        height: 70%;
-        background-color: inherit;
+    // .statistic_info {
+    //     display: flex;
+    //     width: 100%;
+    //     flex-flow: row nowrap;
+    //     height: 70%;
+    //     background-color: inherit;
 
-        .vue_apps {
-            display: flex;
-            flex-flow: column nowrap;
-            justify-content: center;
-            align-items: center;
-            width: 30%;
-            height: 100%;
+        // .vue_apps {
+        //     display: flex;
+        //     flex-flow: column nowrap;
+        //     justify-content: center;
+        //     align-items: center;
+        //     width: 30%;
+        //     height: 100%;
 
-            #app{
-                width: 80%;
-                height: 50%;
-            }
+        //     #app{
+        //         width: 80%;
+        //         height: 50%;
+        //     }
 
-            #app2{
-                width: 80%;
-                height: 50%;
-            }
-        }
+        //     #app2{
+        //         width: 80%;
+        //         height: 50%;
+        //     }
+        // }
 
         /*.toDoList{
             width: 70%;
@@ -143,5 +143,5 @@
                 opacity: 0.5;
             }
         }*/
-    }
+    // }
 }
