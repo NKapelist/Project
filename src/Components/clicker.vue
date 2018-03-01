@@ -38,6 +38,8 @@
         align-items: center;
         width: 30%;
         height: 100%;
+        padding-top: 20px;
+        margin-left: 5px;
 
         input[type="text"] {
             border: none;

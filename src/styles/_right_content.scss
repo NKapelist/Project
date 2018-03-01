@@ -4,24 +4,25 @@
 // }
 
 .right_content {
-	flex-flow: row wrap;
-    justify-content: space-around;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
     @include padding (20px,0px);
     background: linear-gradient(to top left, $main_dark_lilac, $main_light_lilac);
 
-    .right_content_posts {
-        display: flex;
-        flex-flow: column nowrap;
-        width: 25%;
-        min-width: 100px;
-        border: 1px solid $light_purple;
-        background: linear-gradient(to top left, $main_light_lilac, #f55f4c);
-        font-size: 80%;
-        @include padding (5px,5px);
-        @include margin (10px,0px);
-    }
+//     .right_content_posts {
+//         display: flex;
+//         flex-flow: column nowrap;
+//         width: 25%;
+//         min-width: 100px;
+//         border: 1px solid $light_purple;
+//         background: linear-gradient(to top left, $main_light_lilac, #f55f4c);
+//         font-size: 80%;
+//         @include padding (5px,5px);
+//         @include margin (10px,0px);
+//     }
 }
 
-.right_content_posts:hover{
-    opacity: 0.5;
-}
+// .right_content_posts:hover{
+//     opacity: 0.5;
+// }

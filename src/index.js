@@ -1,12 +1,13 @@
 import './styles/styles.scss';
-import ctrl from "./controllers/builderCtrl.js";
-import "./controllers/clickerCtrl.js";
-import "./posts.js";
+// import ctrl from "./controllers/builderCtrl.js";
+// import "./controllers/clickerCtrl.js";
+// import "./posts.js";
 import Vue from "vue/dist/vue.min.js";
-import "./toDoList.js";
+// import "./toDoList.js";
 import todo from "./Components/todo.vue";
 import clicker from "./Components/clicker.vue";
 import pugTest from "./Components/pugTest.vue";
+import posts from "./Components/posts.vue";
 
 
 
@@ -16,11 +17,13 @@ new Vue ({
             <todo/>
             <clicker/>
             <pugTest/>
+            <posts/>
             </div>`,
   components :{
     todo : todo,
     clicker : clicker,
-    pugTest : pugTest
+    pugTest : pugTest,
+    posts : posts,    
   }
   
 });

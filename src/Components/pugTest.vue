@@ -1,5 +1,5 @@
 <template lang="pug">
-	div.container
+	div.pugTest
 		input(type = "file", id = "file")
 		button(id = "button", @click = "readFile") Read
 		p {{ file.message }}	
@@ -37,3 +37,12 @@ export default {
 	
 }
 </script>
+
+<style lang="scss">
+	.pugTest{
+		display: flex;
+		margin-top: 20px;
+		margin-left: 40px;
+	}
+</style>
+
