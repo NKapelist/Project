@@ -8,7 +8,7 @@ import todo from "./Components/todo.vue";
 import clicker from "./Components/clicker.vue";
 import pugTest from "./Components/pugTest.vue";
 import posts from "./Components/posts.vue";
-
+import profile from "./Components/profile.vue";
 
 
 new Vue ({
@@ -17,12 +17,14 @@ new Vue ({
             <todo/>
             <clicker/>
             <pugTest/>
+            <profile/>
             <posts/>
             </div>`,
   components :{
     todo : todo,
     clicker : clicker,
     pugTest : pugTest,
+    profile : profile,
     posts : posts,    
   }
   

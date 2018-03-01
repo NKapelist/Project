@@ -39,7 +39,7 @@
         width: 30%;
         height: 100%;
         padding-top: 20px;
-        margin-left: 5px;
+        margin-left: 20px;
 
         input[type="text"] {
             border: none;
