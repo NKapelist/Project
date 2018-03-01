@@ -7,18 +7,26 @@
 
 <h2 align="center">Start a Project</h2>
 
-To run the project, you need to open the console and run the following three commands:
+To run the project, you need to open the console and execute the following three commands:
 
-- clone your repository [link to the repository](https://github.com/Nato4ka12/Project.git)
+- Clone your repository [link to the repository](https://github.com/Nato4ka12/Project.git)
 ```bush
-git clone 'link to the repository'
+$ git clone 'link to the repository'
 ```
-- initialize a project
+- Initialize a project
 ```bush
-npm i
+$ npm i
 ```
-- launch the project in the browser
+- Launch the project in the browser
 ```bush
-npm run dev
+$ npm run dev
 ```
-<h2>Usage</h2>
+<h2 align="center">Technologies</h2>
+
+For the development of the project, have been used such instruments as:
+- [Node.js](https://nodejs.org/uk/) - an open-source, cross-platform JavaScript run-time environment for executing JavaScript code server-side;
+- [GitHub](https://github.com/) - a web-based hosting service for version control using git;
+- [Webpack](https://webpack.js.org/) - a module bundler;
+- [SCSS](https://sass-scss.ru/guide/) - extends CSS by providing several mechanisms available in more traditional programming languages, including object-oriented languages, but not available for CSS.
+- [Vue.js](https://vuejs.org/) - an open-source progressive JavaScript framework for building user interfaces;
+- [Pug](https://pugjs.org/api/getting-started.html) - template engine and an html preprocessor written in javascript for node.js.
