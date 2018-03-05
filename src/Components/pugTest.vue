@@ -9,7 +9,8 @@
 export default {
   	data(){
 			return {
-              file: { message : ""}}
+			  file: { message : ""}
+			  }
 		},
 		mounted() {
 				let input = document.getElementById("file");
@@ -41,6 +42,9 @@ export default {
 <style lang="scss">
 	.pugTest{
 		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-around;
+		align-items: center;
 		margin-top: 20px;
 		margin-left: 40px;
 	}

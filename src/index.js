@@ -3,6 +3,7 @@ import './styles/styles';
 // import "./controllers/clickerCtrl.js";
 // import "./posts.js";
 import Vue from "vue/dist/vue.min";
+import PIXI from 'pixi.js/dist/pixi.min';
 // import "./toDoList.js";
 // import todo from "./Components/todo";
 // import clicker from "./Components/clicker";
@@ -23,6 +24,7 @@ new Vue ({
     <router-link to="/pugTest">PugTest</router-link>
     <router-link to="/profile">Profile</router-link>
     <router-link to="/posts">Posts</router-link>
+    <router-link to="/draw">Game</router-link>
     </div>
     
     <div class="r_view">
